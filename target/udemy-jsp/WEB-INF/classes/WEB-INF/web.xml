@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+        version="4.0">
+  <!-- Config here. -->
+  <welcome-file-list>
+
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>StudentControllerServlet</welcome-file>
+  </welcome-file-list>
+  <display-name>servlets</display-name>
+  <context-param>
+    <param-name>max-shopping-cart-size</param-name>
+    <param-value>99</param-value>
+  </context-param>
+  <context-param>
+    <param-name>project-team-name</param-name>
+    <param-value>The coding gurus</param-value>
+  </context-param>on
+  <servlet>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>servletdemo.HelloWorldServlet</servlet-class>
+  </servlet>
+<servlet-mapping>
+  <servlet-name>HelloWorldServlet</servlet-name>
+  <url-pattern>/helloworld</url-pattern>
+</servlet-mapping>
+</web-app>
