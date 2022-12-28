@@ -118,7 +118,7 @@ public class StudentControllerServlet extends HttpServlet {
         Student student = new Student(id, firstName, lastName, email);
 
         //perform update on DB
-        studentDBUtil.updeteStudent(student);
+        studentDBUtil.updateStudent(student);
 
         // send them back to the "list of students" page
         getAllStudents(request, response);

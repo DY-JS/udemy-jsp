@@ -153,7 +153,7 @@ public class StudentDBUtil {
         }
     }
 
-    public void updeteStudent(Student student) throws  Exception {
+    public void updateStudent(Student student) throws  Exception {
         Connection myConn = null;
         PreparedStatement myStmt = null;
 
