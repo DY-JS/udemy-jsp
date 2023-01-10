@@ -88,7 +88,6 @@ public class StudentControllerServlet extends HttpServlet {
 
         //send them back to "list students" page
         getAllStudents(request, response);
-
     }
 
     private void searchStudents(HttpServletRequest request, HttpServletResponse response) throws Exception {
